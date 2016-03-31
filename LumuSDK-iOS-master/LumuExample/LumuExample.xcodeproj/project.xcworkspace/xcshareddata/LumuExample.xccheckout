@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3391A2AE-16B5-46C4-B731-68EE516265BA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LumuExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8B93CBC09DFAE74A0CC7B5ABDEE5FEF3A4142A92</key>
+		<string>https://github.com/Lumu/LumuSDK-iOS.git</string>
+		<key>D68E4D93BC2006C9762132982D45788D3C870586</key>
+		<string>https://bitbucket.org/benqo/lumuframework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LumuExample/LumuExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8B93CBC09DFAE74A0CC7B5ABDEE5FEF3A4142A92</key>
+		<string>../../..</string>
+		<key>D68E4D93BC2006C9762132982D45788D3C870586</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Lumu/LumuSDK-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8B93CBC09DFAE74A0CC7B5ABDEE5FEF3A4142A92</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D68E4D93BC2006C9762132982D45788D3C870586</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8B93CBC09DFAE74A0CC7B5ABDEE5FEF3A4142A92</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LumuSDK-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

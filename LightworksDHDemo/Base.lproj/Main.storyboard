@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCm-cC-0Es">
+                                <rect key="frame" x="521" y="157" width="59" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="4CH-Fr-Cgp">
+                                <rect key="frame" x="18" y="157" width="497" height="31"/>
+                                <connections>
+                                    <action selector="levelSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="KPK-PA-13V"/>
+                                    <action selector="levelSliderDone:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q2h-UX-Ztd"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5u-v0-hBc">
+                                <rect key="frame" x="20" y="46" width="560" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="xEngineering 4.4 (06001234)"/>
+                                <connections>
+                                    <action selector="fixtureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ez-IR-0t8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9b-2X-YZ9">
+                                <rect key="frame" x="252" y="524" width="96" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Calibrate"/>
+                                <connections>
+                                    <action selector="calibrateButtonPressed:" destination="BYZ-38-t0r" eventType="touchDragInside" id="Hto-hy-sWi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="210.1 lux" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybT-Vb-w4v">
+                                <rect key="frame" x="202" y="327" width="196" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="52"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UCm-cC-0Es" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="685-DI-bfe"/>
+                            <constraint firstItem="Z9b-2X-YZ9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7jO-eA-xsH"/>
+                            <constraint firstItem="UCm-cC-0Es" firstAttribute="leading" secondItem="4CH-Fr-Cgp" secondAttribute="trailing" constant="8" id="QEe-Ir-TrG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Z9b-2X-YZ9" secondAttribute="bottom" constant="35" id="cdX-ys-Agj"/>
+                            <constraint firstItem="ybT-Vb-w4v" firstAttribute="top" secondItem="4CH-Fr-Cgp" secondAttribute="bottom" constant="140" id="jGX-XN-Td0"/>
+                            <constraint firstItem="M5u-v0-hBc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="26" id="jVh-zd-4z2"/>
+                            <constraint firstItem="M5u-v0-hBc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="kUe-y5-Jhb"/>
+                            <constraint firstItem="4CH-Fr-Cgp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="kd9-3a-pyt"/>
+                            <constraint firstItem="M5u-v0-hBc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="q74-p9-Ea8"/>
+                            <constraint firstItem="4CH-Fr-Cgp" firstAttribute="top" secondItem="M5u-v0-hBc" secondAttribute="bottom" constant="70" id="sKY-Bg-Hpf"/>
+                            <constraint firstItem="ybT-Vb-w4v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sbp-uG-EXY"/>
+                            <constraint firstItem="UCm-cC-0Es" firstAttribute="top" secondItem="M5u-v0-hBc" secondAttribute="bottom" constant="70" id="uSB-mo-0C5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="calibrateButton" destination="Z9b-2X-YZ9" id="kQi-hc-CYf"/>
+                        <outlet property="fixtureButton" destination="M5u-v0-hBc" id="ofe-Je-h7z"/>
+                        <outlet property="levelLabel" destination="UCm-cC-0Es" id="QGV-Yt-lj4"/>
+                        <outlet property="levelSlider" destination="4CH-Fr-Cgp" id="Rmr-ec-K8E"/>
+                        <outlet property="lumuLevelLabel" destination="ybT-Vb-w4v" id="gRP-Og-Q8O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="353"/>
+        </scene>
+    </scenes>
+</document>

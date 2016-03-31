@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AED4C5833E9D86FD8FFD0B52 /* libPods-LightworksDHDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F72C4516802BA85785DC3F /* libPods-LightworksDHDemo.a */; };
+		D436CB161CAB139B000AE7AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D436CB151CAB139B000AE7AC /* main.m */; };
+		D436CB191CAB139B000AE7AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D436CB181CAB139B000AE7AC /* AppDelegate.m */; };
+		D436CB1C1CAB139B000AE7AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D436CB1B1CAB139B000AE7AC /* ViewController.m */; };
+		D436CB1F1CAB139B000AE7AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D436CB1D1CAB139B000AE7AC /* Main.storyboard */; };
+		D436CB211CAB139B000AE7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D436CB201CAB139B000AE7AC /* Assets.xcassets */; };
+		D436CB241CAB139B000AE7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D436CB221CAB139B000AE7AC /* LaunchScreen.storyboard */; };
+		D483A06D1CAC28D7001418F6 /* ShareableSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D483A06C1CAC28D7001418F6 /* ShareableSocket.m */; };
+		D483A0711CAC38C0001418F6 /* Lumu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D483A0701CAC38C0001418F6 /* Lumu.framework */; };
+		D483A0731CAC38ED001418F6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D483A0721CAC38ED001418F6 /* AVFoundation.framework */; };
+		D483A0751CAC38F7001418F6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D483A0741CAC38F7001418F6 /* MediaPlayer.framework */; };
+		D483A0771CAC3900001418F6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D483A0761CAC3900001418F6 /* AudioToolbox.framework */; };
+		D483A0791CAC3909001418F6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D483A0781CAC3909001418F6 /* CoreTelephony.framework */; };
+		D483A07E1CAC532C001418F6 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = D483A07D1CAC532C001418F6 /* Node.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09882F01B957189339562310 /* Pods-LightworksDHDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightworksDHDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LightworksDHDemo/Pods-LightworksDHDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9A655BD60D20DB08FEAEE24F /* Pods-LightworksDHDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightworksDHDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LightworksDHDemo/Pods-LightworksDHDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D436CB111CAB139B000AE7AC /* LightworksDHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightworksDHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D436CB151CAB139B000AE7AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D436CB171CAB139B000AE7AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D436CB181CAB139B000AE7AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D436CB1A1CAB139B000AE7AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D436CB1B1CAB139B000AE7AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D436CB1E1CAB139B000AE7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D436CB201CAB139B000AE7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D436CB231CAB139B000AE7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D436CB251CAB139B000AE7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D483A06B1CAC28D7001418F6 /* ShareableSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareableSocket.h; sourceTree = "<group>"; };
+		D483A06C1CAC28D7001418F6 /* ShareableSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareableSocket.m; sourceTree = "<group>"; };
+		D483A0701CAC38C0001418F6 /* Lumu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lumu.framework; path = "LumuSDK-iOS-master/Lumu.framework"; sourceTree = "<group>"; };
+		D483A0721CAC38ED001418F6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D483A0741CAC38F7001418F6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D483A0761CAC3900001418F6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D483A0781CAC3909001418F6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D483A07A1CAC4FCD001418F6 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		D483A07D1CAC532C001418F6 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		D5F72C4516802BA85785DC3F /* libPods-LightworksDHDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LightworksDHDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D436CB0E1CAB139B000AE7AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED4C5833E9D86FD8FFD0B52 /* libPods-LightworksDHDemo.a in Frameworks */,
+				D483A0711CAC38C0001418F6 /* Lumu.framework in Frameworks */,
+				D483A0791CAC3909001418F6 /* CoreTelephony.framework in Frameworks */,
+				D483A0771CAC3900001418F6 /* AudioToolbox.framework in Frameworks */,
+				D483A0751CAC38F7001418F6 /* MediaPlayer.framework in Frameworks */,
+				D483A0731CAC38ED001418F6 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0741CD74BEF9BD25B01F7C63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A655BD60D20DB08FEAEE24F /* Pods-LightworksDHDemo.debug.xcconfig */,
+				09882F01B957189339562310 /* Pods-LightworksDHDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		559375ED93B938C9AB587CBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D483A0781CAC3909001418F6 /* CoreTelephony.framework */,
+				D483A0761CAC3900001418F6 /* AudioToolbox.framework */,
+				D483A0741CAC38F7001418F6 /* MediaPlayer.framework */,
+				D483A0721CAC38ED001418F6 /* AVFoundation.framework */,
+				D5F72C4516802BA85785DC3F /* libPods-LightworksDHDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D436CB081CAB139B000AE7AC = {
+			isa = PBXGroup;
+			children = (
+				D436CB131CAB139B000AE7AC /* LightworksDHDemo */,
+				D436CB221CAB139B000AE7AC /* LaunchScreen.storyboard */,
+				D483A0701CAC38C0001418F6 /* Lumu.framework */,
+				D436CB121CAB139B000AE7AC /* Products */,
+				0741CD74BEF9BD25B01F7C63 /* Pods */,
+				559375ED93B938C9AB587CBA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D436CB121CAB139B000AE7AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D436CB111CAB139B000AE7AC /* LightworksDHDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D436CB131CAB139B000AE7AC /* LightworksDHDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D436CB171CAB139B000AE7AC /* AppDelegate.h */,
+				D436CB181CAB139B000AE7AC /* AppDelegate.m */,
+				D483A06B1CAC28D7001418F6 /* ShareableSocket.h */,
+				D483A06C1CAC28D7001418F6 /* ShareableSocket.m */,
+				D436CB1A1CAB139B000AE7AC /* ViewController.h */,
+				D436CB1B1CAB139B000AE7AC /* ViewController.m */,
+				D436CB1D1CAB139B000AE7AC /* Main.storyboard */,
+				D436CB251CAB139B000AE7AC /* Info.plist */,
+				D436CB201CAB139B000AE7AC /* Assets.xcassets */,
+				D483A07D1CAC532C001418F6 /* Node.m */,
+				D483A07A1CAC4FCD001418F6 /* Node.h */,
+				D436CB141CAB139B000AE7AC /* Supporting Files */,
+			);
+			path = LightworksDHDemo;
+			sourceTree = "<group>";
+		};
+		D436CB141CAB139B000AE7AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D436CB151CAB139B000AE7AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D436CB101CAB139B000AE7AC /* LightworksDHDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D436CB281CAB139B000AE7AC /* Build configuration list for PBXNativeTarget "LightworksDHDemo" */;
+			buildPhases = (
+				A154935A77121E3EA89239C9 /* Check Pods Manifest.lock */,
+				D436CB0D1CAB139B000AE7AC /* Sources */,
+				D436CB0E1CAB139B000AE7AC /* Frameworks */,
+				D436CB0F1CAB139B000AE7AC /* Resources */,
+				CCD005ED813A884AAD5E40D5 /* Embed Pods Frameworks */,
+				34E5C6A211BC2B0EC05EE385 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightworksDHDemo;
+			productName = LightworksDHDemo;
+			productReference = D436CB111CAB139B000AE7AC /* LightworksDHDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D436CB091CAB139B000AE7AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Digital Lumens";
+				TargetAttributes = {
+					D436CB101CAB139B000AE7AC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D436CB0C1CAB139B000AE7AC /* Build configuration list for PBXProject "LightworksDHDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D436CB081CAB139B000AE7AC;
+			productRefGroup = D436CB121CAB139B000AE7AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D436CB101CAB139B000AE7AC /* LightworksDHDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D436CB0F1CAB139B000AE7AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D436CB241CAB139B000AE7AC /* LaunchScreen.storyboard in Resources */,
+				D436CB211CAB139B000AE7AC /* Assets.xcassets in Resources */,
+				D436CB1F1CAB139B000AE7AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34E5C6A211BC2B0EC05EE385 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightworksDHDemo/Pods-LightworksDHDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A154935A77121E3EA89239C9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCD005ED813A884AAD5E40D5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightworksDHDemo/Pods-LightworksDHDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D436CB0D1CAB139B000AE7AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D483A07E1CAC532C001418F6 /* Node.m in Sources */,
+				D483A06D1CAC28D7001418F6 /* ShareableSocket.m in Sources */,
+				D436CB1C1CAB139B000AE7AC /* ViewController.m in Sources */,
+				D436CB191CAB139B000AE7AC /* AppDelegate.m in Sources */,
+				D436CB161CAB139B000AE7AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D436CB1D1CAB139B000AE7AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D436CB1E1CAB139B000AE7AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D436CB221CAB139B000AE7AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D436CB231CAB139B000AE7AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = LightworksDHDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D436CB261CAB139B000AE7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D436CB271CAB139B000AE7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D436CB291CAB139B000AE7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A655BD60D20DB08FEAEE24F /* Pods-LightworksDHDemo.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LumuSDK-iOS-master",
+				);
+				INFOPLIST_FILE = LightworksDHDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitallumens.LightworksDHDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D436CB2A1CAB139B000AE7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09882F01B957189339562310 /* Pods-LightworksDHDemo.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LumuSDK-iOS-master",
+				);
+				INFOPLIST_FILE = LightworksDHDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitallumens.LightworksDHDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D436CB0C1CAB139B000AE7AC /* Build configuration list for PBXProject "LightworksDHDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D436CB261CAB139B000AE7AC /* Debug */,
+				D436CB271CAB139B000AE7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D436CB281CAB139B000AE7AC /* Build configuration list for PBXNativeTarget "LightworksDHDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D436CB291CAB139B000AE7AC /* Debug */,
+				D436CB2A1CAB139B000AE7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D436CB091CAB139B000AE7AC /* Project object */;
+}
