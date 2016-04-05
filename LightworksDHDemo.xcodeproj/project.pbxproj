@@ -373,6 +373,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A655BD60D20DB08FEAEE24F /* Pods-LightworksDHDemo.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LumuSDK-iOS-master",
@@ -388,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 09882F01B957189339562310 /* Pods-LightworksDHDemo.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LumuSDK-iOS-master",
